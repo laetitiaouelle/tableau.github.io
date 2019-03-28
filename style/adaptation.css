@@ -1,0 +1,67 @@
+@media all and (max-width:1030px){
+    body{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    .logo{
+        width: 150px;
+        height: 80px;
+         top:-12px;
+    }
+    
+    .logo span{
+    font-family: cursive;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 18px;
+    position: relative;
+    top: -90px;
+    left: 12px;
+    display: none;
+}
+header{
+    margin-bottom: 60px;
+}
+    
+.dataTables_length {
+    position: relative;
+    bottom: -24px ;
+    width: 100px;
+}
+.dataTables_info {
+    width: 300px;
+    float: left;
+}
+.paginate_button{
+    position: relative;
+    top:15px;
+    left: -33px;
+    float: right;
+}
+    footer{
+        width: 95%;
+    }
+footer div{
+    text-align: center;
+    width: inherit;
+    margin: 2%;
+    overflow: hidden;
+
+}
+}
+@media all and (max-width:699px){
+    h1{
+        font-size: 25px;
+    }
+    table{
+        height: 1000px;
+    }
+    td{
+        margin: 0;
+        padding: 0px;
+        font-size: 18px;
+    }
+    
+}
