@@ -1,0 +1,207 @@
+body{
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../comp1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    width: 80%;
+}
+/* début du header */
+
+header{
+    margin-bottom: 120px;
+}
+.logo{
+    position: relative;
+    top:5px;
+    left: 2px;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: border 0.3s, background 0.3s;
+}
+.logo:hover{
+    background:rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+.logo:hover span{
+    display: block;
+}
+.logo img{
+    width: 100%;
+}
+.logo span{
+    font-family: cursive;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 30px;
+    position: relative;
+    top: -145px;
+    left: 22px;
+    display: none;
+}
+/* fin d header */
+
+/* code pour le titre */
+
+h1{
+    text-align: center;
+    font-family:'Krub';
+    font-weight: 100;
+    font-size:45px;
+    color:white;
+    margin: 35px 0 0 0;
+    padding: 0;
+}
+h1::after{
+    display: block;
+    content: "-";
+    color: rgba(0,0,0,0.3);
+    clear: both;
+}
+/* fin du code pour le titre */
+
+
+/* Modification du datatable */
+
+#mytable_filter input[type=search]{
+    height: 30PX;
+    width: 200px;
+     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.dataTables_filter label {
+    font-family: 'Krub';
+    white-space: nowrap;
+    text-align: left;
+
+}
+
+.paginate_button{
+   margin: 0 7px 0 7px;
+   font-family: 'Krub';
+   font-weight: 400;
+    position: relative;
+    top:-15px;
+    left: -33px;
+    float: right;
+}
+.dataTables_length{
+    position: relative;
+    width: 300px;
+    bottom: -25px;
+}
+.dataTables_length select {
+     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.my_table_length{
+    display: inline-block;
+    margin-bottom: -10px;
+    clear: both;
+}
+.dataTables_length label {
+    font-family: 'Krub';
+    text-align: left;
+    white-space: nowrap;
+}
+
+#mytable_filter{
+    text-align: right;
+    width: 300px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.dataTables_info {
+    font-family: 'Krub';
+    padding-top: 0.85em;
+    white-space: nowrap;
+    vertical-align: top;
+    font-weight: 400;
+}
+/* fin de la  modification du datatable */
+
+/*  style pour la table */
+main {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+table {
+border-collapse: collapse;
+border-radius: 5px;
+width: 100%;
+overflow: hidden;
+margin: 0 auto;
+background:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5));
+}
+th {
+font-family: 'Krub';
+border-bottom:  thin solid #6495ed;
+border-top:  thin solid #6495ed;
+color: white;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.7);
+}
+td {
+padding: 5px;
+text-align: center;
+background-color: transparent;
+border-bottom: 1px solid rgba(0,0,0,0.5);
+height: 30px;
+}
+tfoot a{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+/* fin du code pour la table */
+/* début du footer */
+footer{
+    margin: 0;
+    width: 95%;
+    padding: 2%;
+}
+footer div{
+    width: 48%;
+    margin: 2%;
+     margin: 0 auto;
+    overflow: hidden;
+
+}
+ 
+.div1{
+    padding: 20px;
+}
+
+.div1 ul{
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.div1 ul li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.lien{
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: underline;
+}
+.div3{
+     margin: 0 auto;
+    text-align: center;
+}
+/* fin du footer */
